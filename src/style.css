@@ -46,3 +46,8 @@ button {
   border-radius: 10px;
   background-color: #dfe7ff;
 }
+
+.coded-by {
+  text-align: center;
+  font-family: "Nunito", sans-serif;
+}
