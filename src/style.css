@@ -1,0 +1,48 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+h1 {
+  font-weight: 600;
+}
+button {
+  display: block;
+  padding: 10px;
+  position: relative;
+  margin: 20px;
+  background-color: #000099;
+  color: white;
+  border-width: 0px;
+  border-radius: 10px;
+  float: right;
+}
+.card {
+  margin: 30px;
+  background-color: #dfe7ff;
+  padding: 10px;
+  border: 1px;
+}
+.headicon {
+  color: grey;
+  font-size: 80px;
+}
+.icon {
+  color: grey;
+  font-size: 50px;
+}
+.temperature {
+  font-style: italic;
+  font-family: "Nunito", sans-serif;
+}
+
+.search {
+  margin: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.submit {
+  margin: 10px;
+  border-width: 0px;
+  border-radius: 10px;
+  background-color: #dfe7ff;
+}
