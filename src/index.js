@@ -1,3 +1,4 @@
+
 let now = new Date();
 let days = [
   "Sunday",
@@ -12,6 +13,7 @@ let days = [
 let day = days[now.getUTCDay()];
 let today = document.querySelector("#date");
 today.innerHTML = `${day}, ${now.getHours()}:${now.getMinutes()}`;
+
 
 //Week 5
 
@@ -53,6 +55,7 @@ function getPosition(position) {
 }
 
 function getLocation(event) {
+    event.preventDefault();
   navigator.geolocation.getCurrentPosition(getPosition);
 }
 
